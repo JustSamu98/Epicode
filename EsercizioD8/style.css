@@ -1,0 +1,413 @@
+/*Progetto da finire, manca postion fixed, commenti al codice e giusti testi su 
+paragrafi.
+Dato il poco tempo a disposizione causa impegni personali, lo finirò 
+nei prossimi giorni
+*/
+
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0;
+    font-size: 17px;
+}
+
+/*header{
+    position: fixed;
+    width: 100%;
+}*/
+
+main{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.head{
+    display: flex;
+
+    height: 4rem;
+    box-shadow: 0 1px 20px rgb(185, 184, 184);
+}
+
+.head div{
+    width: 50%;
+}
+
+.head img{
+    width: 20%;
+    height: 40px;
+    margin-left: 20%;
+    margin-top: 10px;
+}
+
+.head i{
+    width: 5px;
+    height: 5px;
+}
+
+.head ul{
+    display: flex;
+    justify-content: end;
+    list-style-type: none;
+    width: 50%;
+    margin-right: 10%;
+    color: rgb(97, 92, 92);
+}
+
+.head li{
+    float: left;
+    text-align: center;
+    margin-top: auto;
+    margin-bottom: auto;
+    padding-left: 1.5rem;
+}
+
+.head ul li:nth-child(4) span{
+    border: 1px solid black;
+    border-radius: 20px;
+    padding: 8px;
+}
+
+.head ul li:last-child span{
+    background-color: red;
+    color: white;
+    border-radius: 50px;
+    padding: 12px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+/*Inizia il main*/
+
+main{
+    display: flex;
+}
+
+.container1{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    margin-top: 7rem;/*stacco header fix*/
+    padding-right: 6rem;
+}
+
+.container2{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+
+    border-left: 1px solid rgb(206, 200, 200);
+    padding-left: 5%;
+    padding-top: 8rem;
+}
+
+#news{
+    display: flex;
+}
+
+#news h4{
+    padding-right: 2%;
+    color: grey;
+}
+
+#news h4:hover{
+    color: black;
+    cursor: pointer;
+}
+
+.paragrafo{
+    display: flex;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.testo{
+    width: 80%;
+}
+
+.testo div:first-child {
+    display: flex;
+}
+
+.testo div:first-child img{
+    width: 5%;
+    height: 5%;
+}
+
+.testo div:first-child span{
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 5px;
+}
+
+.paragrafo p{
+    color: gray;
+}
+
+.paragrafo ul{
+    display: flex;
+    padding-left: 0;
+    color: gray;
+    list-style-type: none;
+
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.paragrafo div:last-child{
+    border-top: 20px;
+}
+
+.info{
+    display: flex;
+}
+
+.info ul{
+    width: 75%;
+}
+
+.info div{
+    width: 10%;
+}
+
+.info i{
+    padding-right: 10px;
+}
+
+.info li{
+    list-style-type: disc;
+    margin-left: 6%;
+}
+
+.info li:first-child{
+    list-style-type: none;
+    margin-left: 0;
+}
+
+.info li:nth-child(3){
+    border: 1px solid rgb(218, 211, 211);
+    border-radius: 20px;
+    background-color: rgb(218, 211, 211);
+    text-align: center;
+    padding-right: 3px; 
+    padding-left: 3px; 
+}
+
+.paragrafo img{
+    width: 200px;
+    height: 134px;
+}
+
+/*Container 2 blocco1*/
+
+.blocco1{
+    text-align: center;
+
+    border-bottom: 1px solid gray;
+    padding-bottom: 10%;
+}
+
+.blocco1 div{
+    margin-bottom: 20px;
+}
+
+.twit img{
+    width: 45px;
+}
+
+.twit{
+    display: flex;
+    justify-content: center;
+}
+
+.twit i{
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 5px;
+}
+
+.logotwitter{
+    color: rgb(14, 143, 202);
+}
+
+.logotwitter2{
+    color: rgb(14, 143, 202);
+    padding-right: 5px;
+
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.connect{
+    height: 20%;
+    width: 70%;
+    
+    margin-left: auto;
+    margin-right: auto;
+
+    display: flex;    
+    justify-content: center;
+
+    border: 1px solid gray;
+    border-radius: 20px;
+}
+
+.connect a{
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+#later a{
+    color: gray;
+}
+
+.blocco1{
+    margin-bottom: 10%;
+}
+
+/*Blocco 2*/
+
+.blocco2{
+    margin-bottom: 15%;
+}
+
+.articoli{
+    display: flex;
+    width: 100%;
+}
+
+.articoli article{
+    margin-bottom: 3%;
+    margin-left: 8px;
+    padding: 6px 16px;
+    
+    float: left;
+    height: 30%;
+
+    border: 1px solid rgb(235, 236, 228);
+    border-radius: 20px;
+    background-color: rgb(235, 236, 228);
+}
+
+
+/*Blocco 3*/
+
+.blocco3{
+    margin-bottom: 15%;
+}
+
+.follow{
+    display: flex;
+    margin-bottom: 1.2rem;
+}
+
+.follow div{
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.follow img{
+    width: 60px;
+}
+
+.blocco3 h3{
+    margin-bottom: 8%;
+}
+
+.follow div:nth-child(2){
+    margin-left: 5%;
+    width: 18rem;
+}
+
+.follow div:nth-child(2) p{
+    margin-top: 1px;
+    margin-bottom: 6px;
+    color: gray;
+}
+
+.follow div:nth-child(3) p{
+    color: gray;
+    margin: 3px;
+}
+
+
+.follow div:nth-child(3){
+    padding: 1px 10px;
+    border: 1px solid gray;
+    border-radius: 20px;
+}
+
+/*Blocco 4*/
+
+.saved{
+    display: flex;
+}
+
+.listasaved{
+    margin-bottom: 6%;
+}
+
+.saved i{
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: 3%;
+}
+
+.listasaved ul{
+    display: flex;
+    color: gray;
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.testosaved h2{
+    margin-bottom: 0;
+}
+
+.listasaved li{
+    padding-left: 0;
+    padding-right: 4%;
+}
+
+.listasaved li:nth-child(2){
+    list-style-type: disc;
+    margin-left: 3%;
+}
+
+.listasaved ul li i{
+    font-size: 12px;
+}
+
+.imgbot{
+    display: flex;
+}
+
+.imgbot span{
+    margin-top: auto;
+    margin-bottom: auto;
+    padding-left: 0.8rem;
+}
+
+#h3{
+    margin-top: 0.8rem;
+    margin-bottom: 0;
+}
+
+.blocco4 div:last-child p{
+    color: rgb(30, 190, 30);
+}
+
+/*blocco5*/
+
+.blocco5{
+    margin-top: 20%;
+}
+
+.listafinal{
+    display: flex;
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.listafinal li{
+    margin-right: 10%;
+    color: gray;
+}
