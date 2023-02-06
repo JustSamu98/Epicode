@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+</head>
+<body id="container">
+    <style>
+        body{
+            margin: auto; 
+            width: 1200px;
+        }
+        table td img{
+            width: 100px;
+        }
+        td{
+            padding-left: 30px;
+        }
+    </style>
+    <h1>AMAZON INFORMATICA</h1>
+    <table>
+            <tr>
+                <td>
+                    <article class="articoli"><img src="assets/prodotto1.jpg"/></article>
+                </td>
+                <td><a href="#">link</a> Iphone</td>
+                <td>Cellulare ultima generazione</td>
+                <td>1200 euro</td>
+                <td>
+                    <textarea name="recensione" placeholder="Inserisci recensione" rows="3" cols="30"
+                    style="resize: none;">
+                    </textarea> 
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <article><img src="assets/prodotto2.jpg"/></article>
+                </td>
+                <td><a href="#">link</a> MacBook</td>
+                <td>Computer portatile</td>
+                <td>1700 euro</td>
+                <td>
+                    <textarea name="recensione" placeholder="Inserisci recensione" rows="3" cols="30"
+                        style="resize: none;">
+                    </textarea> 
+                </td>
+            </tr>
+        
+            <tr>
+                <td>
+                    <article><img src="assets/prodotto3.jpg"/></article>
+                </td>
+                <td><a href="#">link</a> Mouse</td>
+                <td>Mouse Wireless</td>
+                <td>80 euro</td>
+                <td>
+                    <textarea name="recensione" placeholder="Inserisci recensione" rows="3" cols="30"
+                        style="resize: none;">
+                    </textarea> 
+                </td>
+            </tr>
+       
+            <tr>
+                <td>
+                    <article><img src="assets/prodotto4.jpg"/></article>
+                </td>
+                <td><a href="#">link</a> Keyboard</td>
+                <td>Keyboard Wireless</td>
+                <td>200 euro</td>
+                <td>
+                    <textarea name="recensione" placeholder="Inserisci recensione" rows="3" cols="30"
+                        style="resize: none;">
+                    </textarea> 
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <article><img src="assets/prodotto5.jpg"/></article>
+                </td>
+                <td><a href="#">link</a> AirPods Pro</td>
+                <td>Cuffie Wireless con cancellazione del rumore</td>
+                <td>300 euro</td>
+                <td>
+                    <textarea name="recensione" placeholder="Inserisci recensione" rows="3" cols="30"
+                        style="resize: none;">
+                    </textarea> 
+                </td>
+            </tr>
+    </table>
+    <footer style="margin-top: 50px;">
+        <a>InfoAmazon</a>
+        <a id="indirizzo">Via Pino Pinguino 3</a>
+    </footer>
+
+    <script>
+        // es 7
+        const changeTitle = function (newTitle) {
+        const title = document.querySelector('h1');
+        title.innerText = newTitle;
+      }
+      changeTitle('Questo è il nuovo titolo');
+
+        // es 8
+        const paint = function () {
+        const body = document.getElementById('container');
+        body.style.backgroundColor = "Red";
+      }
+      paint();
+
+      // es 9
+      const changeIndirizzo = function (newIndirizzo) {
+        const indirizzo = document.getElementById('indirizzo'); 
+        indirizzo.innerText = newIndirizzo;
+      }
+      changeIndirizzo('Questo è il nuovo indirizzo fittizio');
+
+      // es 10
+      const addClass = function () {
+        const classe = document.querySelectorAll('td a');
+        classe.classList.add('classeA'); 
+      }
+      addClass();
+
+      // es 11 da vedere
+      const addClassImg = function () {
+        const classe = document.querySelectorAll('table img');
+        classe.classList.add('classeImg'); 
+        classe.style.visibility = 'hidden';
+      }
+      addClassImg();
+
+      // es 12 da vedere
+
+    </script>
+</body>
+</html>
