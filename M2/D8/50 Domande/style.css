@@ -1,0 +1,39 @@
+/*Es 11 l'es. chiede di centrare il body e qui è fatto, ovviamente però questo non centra anche il testo all'interno, consegna poco chiara*/
+body{
+    margin: auto; 
+    width: 100%;
+}
+/*Es 12*/
+h1{
+    text-align: center;
+}
+/*Es 13*/
+a{
+    color: red;
+}
+/*Es 14-15*/
+.tabella{
+    border: 1px solid black;
+    border-radius: 10px;
+}
+/*Es 16*/
+p{
+    margin: 10px;
+}
+/*Es 17*/
+.paragrafo{
+    font-size: 2rem;
+    font-weight: 400;
+}
+/*Es 18*/
+.nascondere{
+    display: none;
+}
+/*Es 19*/
+td{
+    border: 1px solid green;
+}
+/*Es 20 DA FARE*/ 
+tr{
+    border-style: dotted;
+}
